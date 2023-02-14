@@ -8,6 +8,7 @@
 body {
     font-family: "League Spartan";
     text-align: center;
+    background: #e4ded4;
 }
 
 /* Header Stylization */
@@ -29,7 +30,7 @@ header {
 main {
     /* Structure */
     background: #e4ded4;
-    margin: 5px;
+    margin: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
 
@@ -43,7 +44,7 @@ main {
 hr {
     height: 4px;
     background-color: #2f0601;
-    margin: 25px 50px 30px;
+    margin: 40px 50px 40px;
     border-radius: 10px;
 }
 
@@ -59,7 +60,7 @@ hr {
 
 .contact-list img {
     height: 15px;
-    width: auto;
+    width: 15px;
 }
 
 /* Link Stylization */
@@ -86,6 +87,9 @@ footer {
     /* Structure */
     background: #1e1e23;
     padding: 10px 0px 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
     /* Font Stylings */
     color: #fbf9ff;
