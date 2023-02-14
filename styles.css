@@ -1,0 +1,93 @@
+/* Font Import */
+@font-face {
+    font-family: "League Spartan";
+    src: url(Font/LeagueSpartan-Bold.otf);
+}
+
+/* Setting font and algining to center */
+body {
+    font-family: "League Spartan";
+    text-align: center;
+}
+
+/* Header Stylization */
+
+header {
+    /* Structure */
+    background: #ab9ba9;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    /* Font Stylings */
+    text-align: center;
+    color: #07080d;
+    text-shadow: #e4ded4 0px 0px 1.75px;
+}
+
+/* Main Stylization */
+
+main {
+    /* Structure */
+    background: #e4ded4;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /* Font Stylings */
+    color: #07080d;
+    font-size: smaller;
+}
+
+/* Horizontal Rule Stylization */
+
+hr {
+    height: 4px;
+    background-color: #2f0601;
+    margin: 25px 50px 30px;
+    border-radius: 10px;
+}
+
+/* Stylization for Lists */
+
+.hobby-list, .contact-list {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* List Image Stylization */
+
+.contact-list img {
+    height: 15px;
+    width: auto;
+}
+
+/* Link Stylization */
+
+a:link {
+    color: #6e9076;
+}
+
+a:visited {
+    color: #34113f;
+}
+
+a:hover {
+    color: #856f82;
+}
+
+a:active {
+    color: #ab9ba9;
+}
+
+/* Footer Stylization */
+
+footer {
+    /* Structure */
+    background: #1e1e23;
+    padding: 10px 0px 25px;
+
+    /* Font Stylings */
+    color: #fbf9ff;
+    font-size: xx-small;
+}
